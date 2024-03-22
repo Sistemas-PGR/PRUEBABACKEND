@@ -1,8 +1,6 @@
-using PruebaTecnica.Concretes.Contexts;
 using Microsoft.EntityFrameworkCore;
-using PruebaTecnica.Concretes;
-using PruebaTecnica.Interfaces;
 using PruebaTecnica.Models;
+using PruebaTecnica.Contexts;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +18,6 @@ var environment = new ProjectEnvironment
 //Add Interfaces
 builder.Services.AddSingleton<ProjectEnvironment>(environment);
 builder.Services.AddSingleton(environment);
-builder.Services.AddScoped<IEjemplo, EjemploConcrete>(); //Ejemplo de como aplicar el concrete con la interface
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
