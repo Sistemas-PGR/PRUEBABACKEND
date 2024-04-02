@@ -12,10 +12,4 @@
 	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-	  <ProjectReference Include="..\PruebaTecnica.Concretes\PruebaTecnica.Concretes.csproj" />
-	  <ProjectReference Include="..\PruebaTecnica.Interfaces\PruebaTecnica.Interfaces.csproj" />
-	  <ProjectReference Include="..\PruebaTecnica.Models\PruebaTecnica.Models.csproj" />
-  </ItemGroup>
-
 </Project>
