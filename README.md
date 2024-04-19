@@ -10,6 +10,16 @@ Puedes encontrar los modelos que se usan para las respuestas y peticiones de la 
 
 [./PruebaTecnica.ViewModels](./PruebaTecnica.ViewModels)
 
+
+## Correr el proyecto
+
+Puedes correr el proyecto utilizando Visual Studio o desde la terminal en la ubicación del repo con:
+
+```bash
+dotnet run --project .\PruebaTecnica\
+```
+
+
 ## Endpoints
 
 Revisalos en Swagger: [swagger](https://localhost:7116/swagger/index.html)
